@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.container h1{
+    font-family: 'Original Surfer', cursive;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 12px;
+    outline: none;
+}
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background: crimson;
+    cursor: pointer;
+    outline: none;
+    margin: 26px;
+}
